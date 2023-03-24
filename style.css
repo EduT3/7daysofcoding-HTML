@@ -1,4 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+
+:root {
+
+  --text-color: #667085;
+  --text-color-dark: #3a404e;
+  --main-color: #8E2424;
+
+  --fonte-principal:"inter", sans-serif;
+}
 
 * {
   margin: 0;
@@ -6,7 +15,7 @@
   box-sizing: border-box;
 }
 
-/* edição do navbar */
+/* css do navbar */
 
 header {
   width: 100vw;
@@ -26,22 +35,22 @@ div {
 .logo {
   margin-left: 12%;
   gap: 10px;
-  font-family: "inter", sans-serif;
+  font-family: var(--fonte-principal);
 }
 .logo,
 p {
-  color: #3a404e;
+  color: var(--text-color-dark);
 }
 .navegacao {
   margin-left: 10%;
   gap: 20px;
-  font-family: "inter", sans-serif;
+  font-family: var(--fonte-principal);
   font-weight: 500;
 }
 .navegacao,
 a {
   text-decoration: none;
-  color: #667085;
+  color: var(--text-color);
   font-family: "inter", sans-serif;
   font-weight: 500;
 }
@@ -57,12 +66,43 @@ button {
 .acesso_botao1 {
   border: none;
   background-color: #ffffff;
-  color: #667085;
+  color: var(--text-color);
 }
 .acesso_botao2 {
   padding: 8px 14px 8px 14px;
-  background-color: #8e2424;
-  border-color: #8e2424;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
   border-radius: 8px;
   color: #ffffff;
+}  
+
+/* css do cabeçalho */
+
+.apresentacao {
+  width: 100vw;
+  height: 407px;
+  display: flex;
+  flex-direction: column;
+  padding: 90px;
+  gap: 50px;
+}
+
+.apresentacao p {
+  font-family: var(--fonte-principal);
+  color: var(--main-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.apresentacao h1 {
+  font-family: var(--fonte-principal);
+  font-size: 3rem;
+}
+
+.apresentacao span {
+  font-family: var(--fonte-principal);
+  color: var(--text-color);
+  font-size: 1.5rem;
+  width: 60%;
+  text-align: center;
 }
