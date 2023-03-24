@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* edição do navbar */
+
+header {
+  width: 100vw;
+  height: 80px;
+}
+navbar {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 80px;
+}
+navbar,
+div {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-left: 12%;
+  gap: 10px;
+  font-family: "inter", sans-serif;
+}
+.logo,
+p {
+  color: #3a404e;
+}
+.navegacao {
+  margin-left: 10%;
+  gap: 20px;
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+}
+.navegacao,
+a {
+  text-decoration: none;
+  color: #667085;
+  font-family: "inter", sans-serif;
+  font-weight: 500;
+}
+.acesso {
+  margin-left: 30%;
+  gap: 25px;
+}
+.acesso,
+button {
+  font-weight: 500;
+  font-family: "inter", sans-serif;
+}
+.acesso_botao1 {
+  border: none;
+  background-color: #ffffff;
+  color: #667085;
+}
+.acesso_botao2 {
+  padding: 8px 14px 8px 14px;
+  background-color: #8e2424;
+  border-color: #8e2424;
+  border-radius: 8px;
+  color: #ffffff;
+}
