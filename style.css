@@ -108,6 +108,8 @@ button {
   text-align: center;
 }
 
+/* css das métricas */
+
 .metricas {
   display: flex;
   padding: 5% 0 5% 15%;
