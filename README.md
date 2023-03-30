@@ -6,4 +6,4 @@ Pratica de HTML
 | -------------  | --- |
 | :sparkles: Nome        | **7daysofcoding**
 | :label: Tecnologias | HTML, CSS (tecnologias utilizadas)
-| :rocket: URL         | https://portifolio2-0-edut3.vercel.app/
+| :rocket: URL         | https://7daysofcoding-html.vercel.app/
